@@ -21,6 +21,12 @@ header {
   align-items: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo img {
   height: 50px;
   padding-left: 10px;
@@ -30,11 +36,15 @@ nav span a {
   display: inline-block;
   color: seashell;
   padding-right: 10px;
-
 }
 
-.sec1 img {
-  background image: stretch;
+
+#mission {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 69px;
   height: 700px;
   width: 1200px;
+  background-image: url("resources/img-mission-background.jpg");
 }
